@@ -1,0 +1,3208 @@
+{
+  "intents": [
+    {
+      "intent": "afirmar",
+      "examples": [
+        {
+          "text": "claro"
+        },
+        {
+          "text": "correcto"
+        },
+        {
+          "text": "eso es"
+        },
+        {
+          "text": "exacto"
+        },
+        {
+          "text": "me parece bien"
+        },
+        {
+          "text": "ni lo dudes"
+        },
+        {
+          "text": "obvio"
+        },
+        {
+          "text": "por supuesto"
+        },
+        {
+          "text": "s"
+        },
+        {
+          "text": "si"
+        },
+        {
+          "text": "sí"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "bot_challenge",
+      "examples": [
+        {
+          "text": "eres humano?"
+        },
+        {
+          "text": "¿eres un bot?"
+        },
+        {
+          "text": "eres un robot?"
+        },
+        {
+          "text": "estoy hablando con una persona?"
+        },
+        {
+          "text": "estoy hablando con un bot?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "dar_gracias",
+      "examples": [
+        {
+          "text": "genial! gracias"
+        },
+        {
+          "text": "gracias"
+        },
+        {
+          "text": "justo lo que necesitaba, gracias!"
+        },
+        {
+          "text": "mil gracias"
+        },
+        {
+          "text": "muchas gracias!"
+        },
+        {
+          "text": "perfecto! gracias por la ayuda"
+        },
+        {
+          "text": "vale, gracias"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "florecer",
+      "examples": [
+        {
+          "text": "- Cómo hago para que a mis plantas le salgan más flores"
+        },
+        {
+          "text": "- ¿Cómo puedo hacer que mis plantas florezcan durante más tiempo?"
+        },
+        {
+          "text": "- ¿Cuál es la mejor manera para fomentar la floración?"
+        },
+        {
+          "text": "- ¿Hay algo que pueda utilizar para promover la floración de mis plantas?"
+        },
+        {
+          "text": "- Mis plantas no están floreciendo tanto como esperaba, ¿qué puedo hacer para mejorar su floración?"
+        },
+        {
+          "text": "- ¿Qué cuidados adicionales puedo proporcionar para que mis plantas produzcan más flores?"
+        },
+        {
+          "text": "- ¿Qué puedo hacer para estimular la floración de mis plantas?"
+        },
+        {
+          "text": "- ¿Qué puedo hacer para que mis plantas florezcan más?"
+        },
+        {
+          "text": "- Quiero que mis plantas tengan más flores, ¿qué debo hacer?"
+        }
+      ],
+      "description": "consejos para que florezcan mejor las plantas"
+    },
+    {
+      "intent": "goodbye",
+      "examples": [
+        {
+          "text": "adiós, gracias"
+        },
+        {
+          "text": "bye bye"
+        },
+        {
+          "text": "chao"
+        },
+        {
+          "text": "hasta la próxima"
+        },
+        {
+          "text": "hasta luego"
+        },
+        {
+          "text": "nos vemos"
+        },
+        {
+          "text": "que tengas un buen día"
+        },
+        {
+          "text": "ya hablamos"
+        }
+      ],
+      "description": "Despedida"
+    },
+    {
+      "intent": "greet",
+      "examples": [
+        {
+          "text": "buenas noches"
+        },
+        {
+          "text": "buenas tardes"
+        },
+        {
+          "text": "buenos días"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "hola"
+        },
+        {
+          "text": "hola qué tal"
+        },
+        {
+          "text": "holi"
+        },
+        {
+          "text": "holo"
+        }
+      ],
+      "description": "Saludo"
+    },
+    {
+      "intent": "Informacion",
+      "examples": [
+        {
+          "text": "¿Cómo puedo mantener saludable mi poto?"
+        },
+        {
+          "text": "¿Cómo puedo mantener saludable mi suculenta?"
+        },
+        {
+          "text": "- Estoy interesado en conocer más sobre el poto"
+        },
+        {
+          "text": "Estoy interesado en conocer más sobre la suculenta"
+        },
+        {
+          "text": "- Me interesa saber sobre el poto"
+        },
+        {
+          "text": "Me interesa saber sobre la suculenta"
+        },
+        {
+          "text": "- ¿Qué cuidados necesita el poto?"
+        },
+        {
+          "text": "¿Qué cuidados necesita la suculenta?"
+        },
+        {
+          "text": "- Quiero aprender a cuidar mi poto"
+        },
+        {
+          "text": "Quiero aprender a cuidar mi suculenta"
+        },
+        {
+          "text": "Quiero saber información de cómo cuidar el poto"
+        },
+        {
+          "text": "Quiero saber información de cómo cuidar la suculenta"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "luz",
+      "examples": [
+        {
+          "text": "- ¿Cómo puedo proporcionar suficiente luz a mis plantas de interior?"
+        },
+        {
+          "text": "- ¿Cómo puedo saber si mis plantas de interior están recibiendo suficiente luz?"
+        },
+        {
+          "text": "- ¿Cómo sé cuánta luz necesita mi suculenta?"
+        },
+        {
+          "text": "- ¿Cuál es la mejor ubicación para colocar mis plantas de interior en términos de luz solar?"
+        },
+        {
+          "text": "- ¿Cuánta luz necesita el poto?"
+        },
+        {
+          "text": "- cuánta luz necesita la suculenta?"
+        },
+        {
+          "text": "- ¿Cuánta luz solar necesita el poto?"
+        },
+        {
+          "text": "- ¿Cuánta luz solar necesita la suculenta?"
+        },
+        {
+          "text": "- ¿Cuánta luz solar necesitan las plantas de interior?"
+        },
+        {
+          "text": "¿Cuántas horas de luz necesita mi poto para crecer saludable?"
+        },
+        {
+          "text": "- ¿Cuántas horas de luz necesitan mis plantas de interior para crecer saludables?"
+        },
+        {
+          "text": "¿El poto necesita poca o mucha luz?"
+        },
+        {
+          "text": "- las suculentas prefieren mucha o poca luz?"
+        },
+        {
+          "text": "- La suculenta necesita poca o mucha luz?"
+        },
+        {
+          "text": "- ¿Qué debo hacer si mis plantas de interior no reciben suficiente luz solar?"
+        }
+      ],
+      "description": "luz suficiente para mis plantas"
+    },
+    {
+      "intent": "macetas",
+      "examples": [
+        {
+          "text": "- ¿Cómo puedo saber si una maceta es adecuada para mis plantas de interior?"
+        },
+        {
+          "text": "- ¿Cuál es el material más adecuado para las macetas de plantas de interior?"
+        },
+        {
+          "text": "- ¿Cuál es el mejor tipo de maceta para mis plantas de interior?"
+        },
+        {
+          "text": "- ¿Debo elegir macetas de cerámica o plástico para mis plantas de interior?"
+        },
+        {
+          "text": "- ¿Hay algún tipo de maceta específico que deba usar para las plantas de interior?"
+        },
+        {
+          "text": "- ¿Las macetas de terracota son mejores que las de plástico para las plantas de interior?"
+        },
+        {
+          "text": "qué macetas son mejores"
+        },
+        {
+          "text": "son mejores las macetas de plástico o de cerámica?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "mascotas",
+      "examples": [
+        {
+          "text": "¿Cuáles son las plantas más seguras para tener en casa si tengo mascotas?"
+        },
+        {
+          "text": "¿Hay plantas que sean seguras para mis mascotas?"
+        },
+        {
+          "text": "Me preocupa la seguridad de mis mascotas, ¿qué plantas puedo tener en casa que no sean tóxicas para ellas?"
+        },
+        {
+          "text": "Qué plantas puedo tener en casa si tengo un gato"
+        },
+        {
+          "text": "Qué plantas puedo tener que no sean tóxicas para mi gato."
+        },
+        {
+          "text": "Qué plantas son seguras para mi gato"
+        },
+        {
+          "text": "¿Qué plantas son seguras para tener cerca de mascotas?"
+        },
+        {
+          "text": "Quiero comprar una planta pero tengo miedo que sea tóxica para mi gato, qué me recomiendas"
+        },
+        {
+          "text": "Quiero crear un espacio verde en casa, pero tengo un perro y un gato. ¿Qué plantas puedo elegir que no sean dañinas para ellos?"
+        },
+        {
+          "text": "Tengo un gato en casa, ¿qué plantas puedo cultivar que no representen un peligro para él?"
+        },
+        {
+          "text": "Tengo un perro y me da miedo tener alguna planta que sea tóxica para él"
+        }
+      ],
+      "description": "plantas seguras para mascotas"
+    },
+    {
+      "intent": "negar",
+      "examples": [
+        {
+          "text": "en absoluto"
+        },
+        {
+          "text": "me temo que no"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "text": "ni de broma"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "no creo"
+        },
+        {
+          "text": "no estoy convencido"
+        },
+        {
+          "text": "no estoy seguro"
+        },
+        {
+          "text": "no mucho"
+        },
+        {
+          "text": "nop"
+        },
+        {
+          "text": "nunca"
+        },
+        {
+          "text": "para nada"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "perdida_hojas",
+      "examples": [
+        {
+          "text": "- ¿Es normal que las plantas pierdan hojas cuando cambian de ubicación?"
+        },
+        {
+          "text": "- ¿Es normal que mis plantas pierdan hojas en invierno?"
+        },
+        {
+          "text": "- ¿La falta de agua puede causar la caída de hojas en mis plantas?"
+        },
+        {
+          "text": "- ¿Por qué mis plantas están perdiendo tantas hojas últimamente?"
+        },
+        {
+          "text": "- ¿Qué puedo hacer si mis plantas de interior están perdiendo hojas?"
+        },
+        {
+          "text": "- ¿Qué puedo hacer si mis plantas están perdiendo hojas de repente?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "problemas",
+      "examples": [
+        {
+          "text": "- ¡Ayuda! Mis plantas tienen insectos. ¿Qué debo hacer?"
+        },
+        {
+          "text": "- ¿Cómo puedo tratar las manchas marrones que están apareciendo en las hojas de mis plantas?"
+        },
+        {
+          "text": "- hay unos bichos en mis plantas y no sé qué hacer"
+        },
+        {
+          "text": "- He encontrado unas manchas marrones en las hojas de mis plantas y no sé qué hacer"
+        },
+        {
+          "text": "- Las hojas de mis plantas tienen manchas marrones, ¿cómo puedo evitar que se propaguen?"
+        },
+        {
+          "text": "- Mis plantas están en peligro! Necesito deshacerme de los insectos de inmediato. ¿Algún consejo?"
+        },
+        {
+          "text": "- Mis plantas están llenas de bichillos, ayúdame por favor"
+        },
+        {
+          "text": "- Mis plantas están mostrando manchas marrones en las hojas, ¿qué debo hacer para que vuelvan a estar normales?"
+        },
+        {
+          "text": "- Mis plantas están siendo devoradas por insectos. ¿Cómo puedo salvarlas?"
+        },
+        {
+          "text": "- necesito ayuda, hay insectos en mis plantas"
+        },
+        {
+          "text": "- Necesito ayuda urgente. Los insectos están matando mis plantas. ¿Cómo puedo solucionarlo?"
+        },
+        {
+          "text": "- Necesito ayuda urgente, ¡mis plantas tienen manchas marrones en las hojas y no sé cómo solucionarlo!"
+        },
+        {
+          "text": "- ¿Qué debo hacer si mis plantas tienen manchas marrones en las hojas?"
+        },
+        {
+          "text": "- ¿Qué significa si mis plantas están desarrollando manchas marrones en las hojas y cómo puedo remediarlo?"
+        },
+        {
+          "text": "- Tengo un problema con mis plantas. Hay insectos por todas partes. ¿Cómo los elimino?"
+        }
+      ],
+      "description": "problemas con las plantas"
+    },
+    {
+      "intent": "riego",
+      "examples": [
+        {
+          "text": "- ¿Cada cuánto riego mis plantas?"
+        },
+        {
+          "text": "- ¿Cada cuánto riego mis plantas de exterior?"
+        },
+        {
+          "text": "- ¿Cada cuánto tengo que regar las plantas?"
+        },
+        {
+          "text": "- ¿Cada cuánto tengo que regar las plantas de exterior?"
+        },
+        {
+          "text": "- ¿Cada cuánto tengo que regar las plantas de interior?"
+        },
+        {
+          "text": "- ¿Cada cuánto tiempo debo regar las plantas que tengo en casa?"
+        },
+        {
+          "text": "cómo debería regar el poto?"
+        },
+        {
+          "text": "cómo la riego"
+        },
+        {
+          "text": "- ¿Cómo puedo saber cuándo regar mis plantas?"
+        },
+        {
+          "text": "- ¿Cómo puedo saber cuándo regar mis plantas de exterior?"
+        },
+        {
+          "text": "- ¿Cómo puedo saber cuándo regar mis plantas de interior?"
+        },
+        {
+          "text": "- ¿Cómo sé cuándo tengo que regar mis plantas?"
+        },
+        {
+          "text": "- ¿Cómo sé cuándo tengo que regar mis plantas de exterior?"
+        },
+        {
+          "text": "- ¿Cómo sé cuándo tengo que regar mis plantas de interior?"
+        },
+        {
+          "text": "- ¿Con qué frecuencia debo regar mis plantas?"
+        },
+        {
+          "text": "- ¿Con qué frecuencia debo regar mis plantas de exterior?"
+        },
+        {
+          "text": "- ¿Con qué frecuencia debo regar mis plantas de interior?"
+        },
+        {
+          "text": "- ¿Cuál es la mejor manera de determinar cuándo regar mis plantas?"
+        },
+        {
+          "text": "- ¿Cuál es la mejor manera de determinar cuándo regar mis plantas de exterior?"
+        },
+        {
+          "text": "- ¿Cuál es la mejor manera de determinar cuándo regar mis plantas de interior?"
+        },
+        {
+          "text": "- Me gustaría saber cuándo es el momento adecuado para regar mis plantas."
+        },
+        {
+          "text": "- Me gustaría saber cuándo es el momento adecuado para regar mis plantas de exterior."
+        },
+        {
+          "text": "- ¿Puedes darme consejos sobre cómo regar mis plantas de exterior?"
+        },
+        {
+          "text": "- ¿Puedes darme consejos sobre cómo regar mis plantas tanto de interior como de exterior?"
+        },
+        {
+          "text": "- ¿Qué recomendaciones tienes para el riego de plantas?"
+        },
+        {
+          "text": "- Quiero saber cuándo es el momento adecuado para regar mis plantas."
+        },
+        {
+          "text": "- Quiero saber cuándo es el momento adecuado para regar mis plantas de exterior."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Sugerencia",
+      "examples": [
+        {
+          "text": "- ¿Cuál es una buena opción de planta para un principiante en jardinería?"
+        },
+        {
+          "text": "- Estoy buscando una planta que no requiera mucho riego, ¿alguna sugerencia?"
+        },
+        {
+          "text": "- Estoy empezando y no sé qué planta comprar"
+        },
+        {
+          "text": "- ¿Me recomiendas una planta?"
+        },
+        {
+          "text": "- ¿Me recomiendas una planta que sea vistosa y que no sea muy complicada de cuidar?"
+        },
+        {
+          "text": "- Necesito recomendaciones de plantas fáciles de cuidar"
+        },
+        {
+          "text": "Quiero una planta bonita y fácil de cuidar"
+        },
+        {
+          "text": "- Quiero una planta que sea muy resistente"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tamaño",
+      "examples": [
+        {
+          "text": "- ¿Cómo crece el poto?"
+        },
+        {
+          "text": "- ¿Cómo crece la suculenta"
+        },
+        {
+          "text": "Cuánto puede llegar a crecer el poto"
+        },
+        {
+          "text": "- Cuánto puede llegar a crecer la suculenta"
+        },
+        {
+          "text": "- Me interesa saber cuánto crece el poto"
+        },
+        {
+          "text": "- Me interesa saber cuánto crece la suculenta"
+        },
+        {
+          "text": "- ¿Qué tamaño alcanza el poto?"
+        },
+        {
+          "text": "- Qué tamaño alcanza la suculenta"
+        },
+        {
+          "text": "- Quiero saber cuánto puede crecer mi poto"
+        },
+        {
+          "text": "- Quiero saber cuánto puede crecer mi suculenta"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "exterior",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "balcón",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "fuera",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "jardín",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "plantas de exterior",
+          "synonyms": [
+            "planta de exterior"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "plantas en el jardín",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "plantas fuera",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "terraza",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "informacion_poto",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "info_poto",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "luz_poto",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "No me interesa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "riego_poto",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tamaño_poto",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "informacion_suculenta",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "info_suculenta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "luz_suculenta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "riego_suculenta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tamaño_suculenta",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "insectos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "insecto",
+          "synonyms": [
+            "bichitos",
+            "bichos",
+            "gusanos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "plaga",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "interior",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "plantas de interior",
+          "synonyms": [
+            "planta de interior",
+            "plantas dentro de casa",
+            "plantas en casa"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "invierno",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "invierno",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "manchas_marrones",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "manchas marrones",
+          "synonyms": [
+            "hojas marrones",
+            "mancha marrón",
+            "manchitas marrones"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "perdida",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "pérdida de hojas",
+          "synonyms": [
+            "caída de hojas",
+            "perder hojas",
+            "perdiendo hojas"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "plantas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "poto",
+          "synonyms": [
+            "pothos",
+            "potos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "suculenta",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "plastico",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "plástico",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Hola! 🌱 Soy Plant.ia, tu asistente de jardinería.\n ¿Qué te trae por aquí hoy? 🌿"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#greet",
+      "dialog_node": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lo siento, parece que no entendí tu pregunta. ¿Podrías reformularla de otra manera?"
+              },
+              {
+                "text": "No te he entendido, por desgracia Plant.ia todavía está en una fase inicial. Sin embargo, algunos temas con los que te puedo ayudar son:\n🌸 Plantas seguras para mascotas\n🌸 Cuáles son las macetas más adecuadas\n🌸 Frecuencia de riego\n🌸 Algunos problemas de salud de tus plantas\n🌸 Florecimiento\n🌸 Recomendaciones sobre plantas fáciles de cuidar"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_2_1713884806168",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1716020080021",
+      "context": {
+        "plantas_suculenta": "@plantas:suculenta"
+      },
+      "conditions": "@plantas:suculenta",
+      "event_name": "input",
+      "dialog_node": "handler_10_1716020080028"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1715953883038",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1715953883049",
+      "previous_sibling": "handler_9_1715953883049"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1716018437879",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1716018437880",
+      "previous_sibling": "handler_3_1716018437880"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1716020080021",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1716020080028",
+      "previous_sibling": "handler_10_1716020080028"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1716018333797",
+      "conditions": "",
+      "event_name": "filled",
+      "dialog_node": "handler_2_1716018375041",
+      "previous_sibling": "handler_4_1716018333799"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1716018437879",
+      "context": {
+        "plantas_poto": "@plantas:poto"
+      },
+      "conditions": "@plantas:poto",
+      "event_name": "input",
+      "dialog_node": "handler_3_1716018437880"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_9_1716018333797",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1716018333799",
+      "previous_sibling": "handler_5_1716018333799"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1716018437879",
+      "conditions": "True",
+      "event_name": "nomatch",
+      "dialog_node": "handler_4_1716019868022",
+      "previous_sibling": "handler_1_1716018437880"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1716018333797",
+      "context": {
+        "plantas_suculenta": "@plantas:suculenta"
+      },
+      "conditions": "@plantas:suculenta",
+      "event_name": "input",
+      "dialog_node": "handler_5_1716018333799"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_10_1715953883038",
+      "event_name": "input",
+      "dialog_node": "handler_9_1715953883049"
+    },
+    {
+      "type": "standard",
+      "title": "Did that help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Te ha sido útil mi respuesta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1713884197802"
+      },
+      "conditions": "#florecer || #problemas || #perdida_hojas || #mascotas || #luz || #riego || #macetas || #tamaño",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1713883840676",
+      "previous_sibling": "node_3_1713884734640"
+    },
+    {
+      "type": "frame",
+      "title": "Informacion_poto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Cuál de estas opciones te interesa saber del poto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "info_poto",
+            "options": [
+              {
+                "label": "¿Cuáles son sus características?",
+                "value": {
+                  "input": {
+                    "text": "\"info_poto\""
+                  }
+                }
+              },
+              {
+                "label": "¿Cuánta luz necesita?",
+                "value": {
+                  "input": {
+                    "text": "\"luz_poto\""
+                  }
+                }
+              },
+              {
+                "label": "¿Cuánto crece?",
+                "value": {
+                  "input": {
+                    "text": "\"tamaño_poto\""
+                  }
+                }
+              },
+              {
+                "label": "¿Cómo debe regarse?",
+                "value": {
+                  "input": {
+                    "text": "\"riego_poto\""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@plantas:poto && #Informacion",
+      "dialog_node": "node_10_1715857699994",
+      "previous_sibling": "node_1_1716133731183"
+    },
+    {
+      "type": "standard",
+      "title": "Saber más Suculenta ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Tienes alguna otra pregunta sobre la suculenta? 🌱 "
+              },
+              {
+                "text": "¿Hay alguna otra cosa de la suculenta que te interese saber?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_11_1715957070272"
+      },
+      "conditions": "@informacion_suculenta",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1715957070271",
+      "previous_sibling": "node_2_1715856321384"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Hay algo más en lo que te pueda ayudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1716133731183",
+      "context": {
+        "no_me_interesa": "no interesa"
+      },
+      "conditions": "#negar",
+      "dialog_node": "node_10_1716141631514"
+    },
+    {
+      "type": "standard",
+      "title": "Respuestas saber más suculenta",
+      "output": {},
+      "parent": "node_10_1715957070271",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#afirmar || #negar || #tamaño || #luz || #riego",
+      "dialog_node": "node_11_1715957070272"
+    },
+    {
+      "type": "standard",
+      "title": "info_suculenta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La suculenta es una planta de interior muy popular gracias a su belleza y facilidad de cuidado. Conocida por su capacidad para almacenar agua en sus hojas carnosas, la suculenta es perfecta para aquellos que buscan una planta resistente y de bajo mantenimiento. Viene en una variedad de formas y colores, desde tonos verdes hasta púrpuras y rosados vibrantes. La suculenta prospera en condiciones de luz brillante a plena luz solar y requiere un riego mínimo, permitiendo que el suelo se seque completamente entre riegos. ¡Es una excelente opción para agregar un toque de naturaleza a cualquier espacio! 🌵\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1715856321384",
+      "context": {
+        "info_suculenta": "info_suculenta"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1715957070271"
+      },
+      "conditions": "@informacion_suculenta:info_suculenta",
+      "dialog_node": "node_1_1715853334755"
+    },
+    {
+      "type": "standard",
+      "title": "tamaño_suculenta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por lo general, las suculentas tienden a ser de tamaño pequeño a mediano, con algunas especies que pueden crecer más grandes. Las suculentas más comunes que se encuentran en interiores suelen tener un tamaño compacto, lo que las hace perfectas para espacios reducidos. Sin embargo, hay variedades más grandes que pueden alcanzar varios pies de altura en condiciones óptimas de crecimiento.🌵📏\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1715856321384",
+      "context": {
+        "info_suculenta": "tamaño_suculenta"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1715957070271"
+      },
+      "conditions": "@informacion_suculenta:riego_suculenta",
+      "dialog_node": "node_1_1715854381824",
+      "previous_sibling": "node_4_1715854679012"
+    },
+    {
+      "type": "standard",
+      "title": "Sugerencias",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Genial que estés pensando en tener una nueva planta!  Te entiendo, a veces es difícil elegir entre tantas opciones. Te recomendaría plantas como el Poto o la Suculenta. Son fáciles de cuidar y lucen geniales en cualquier espacio. ¿Te interesa saber más sobre alguna de ellas o prefieres explorar otras opciones? 🌿\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "sugerencias",
+            "options": [
+              {
+                "label": "Saber más del poto",
+                "value": {
+                  "input": {
+                    "text": "\"info_poto\""
+                  }
+                }
+              },
+              {
+                "label": "Saber más de la suculenta",
+                "value": {
+                  "input": {
+                    "text": "\"info_suculenta\""
+                  }
+                }
+              },
+              {
+                "label": "No me interesan",
+                "value": {
+                  "input": {
+                    "text": "\"no_interesa\""
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          },
+          {
+            "title": "",
+            "options": [],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Sugerencia",
+      "dialog_node": "node_1_1716133731183",
+      "previous_sibling": "node_5_1713885449685"
+    },
+    {
+      "type": "standard",
+      "title": "Dar las gracias",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡De nada! Si necesitas más ayuda en el futuro, no dudes en preguntar. ¡Feliz jardinería! 🌱\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#dar_gracias",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1713884762654",
+      "previous_sibling": "node_10_1713883840676"
+    },
+    {
+      "type": "standard",
+      "title": "Despedir",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Espero que hayas encontrado útiles mis consejos! Siempre estoy aquí para ayudarte con tus proyectos de jardinería. ¡Hasta la próxima! 🌿\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#goodbye",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1713884806168",
+      "previous_sibling": "node_8_1713884902788"
+    },
+    {
+      "type": "standard",
+      "title": "Luz",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1713883840676"
+      },
+      "conditions": "#luz",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1713887366030",
+      "previous_sibling": "node_4_1713887489423"
+    },
+    {
+      "type": "standard",
+      "title": "luz_suculenta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Las suculentas suelen prosperar en entornos con mucha luz solar, preferiblemente luz brillante pero indirecta. Algunas variedades pueden tolerar algo de luz solar directa, pero es importante evitar exponerlas a largas horas de sol intenso, especialmente en climas calurosos. Siempre es mejor observar la reacción de tu suculenta y ajustar su ubicación según sea necesario para evitar quemaduras solares. 🌞🌵\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1715856321384",
+      "context": {
+        "info_suculenta": "luz_suculenta"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1715957070271"
+      },
+      "conditions": "@informacion_suculenta:luz_suculenta",
+      "dialog_node": "node_2_1715853991646",
+      "previous_sibling": "node_1_1715853334755"
+    },
+    {
+      "type": "frame",
+      "title": "Información_suculenta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Cuál de estas opciones te interesa saber de la suculenta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "informacion_suculenta",
+            "options": [
+              {
+                "label": "¿Cuáles son sus características?",
+                "value": {
+                  "input": {
+                    "text": "\"info_suculenta\""
+                  }
+                }
+              },
+              {
+                "label": "¿Cuánta luz necesita?",
+                "value": {
+                  "input": {
+                    "text": "\"luz_suculenta\""
+                  }
+                }
+              },
+              {
+                "label": "¿Cuánto crece?",
+                "value": {
+                  "input": {
+                    "text": "\"tamaño_suculenta\""
+                  }
+                }
+              },
+              {
+                "label": "¿Cómo debe regarse?",
+                "value": {
+                  "input": {
+                    "text": "\"riego_suculenta\""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@plantas:suculenta && #Informacion",
+      "dialog_node": "node_2_1715856321384",
+      "previous_sibling": "node_6_1715951346270"
+    },
+    {
+      "type": "standard",
+      "title": "respuestas saber mucho más suculenta ",
+      "output": {},
+      "parent": "node_11_1715957070272",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#afirmar || #negar || #tamaño || #luz || #riego",
+      "dialog_node": "node_29_1715957423521"
+    },
+    {
+      "type": "standard",
+      "title": "Enfermedades plantas",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1713883840676"
+      },
+      "conditions": "#problemas",
+      "dialog_node": "node_3_1713883058514",
+      "previous_sibling": "node_6_1713886876789"
+    },
+    {
+      "type": "standard",
+      "title": "mascotas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Algunas plantas seguras para mascotas incluyen la palmera de bambú, la violeta africana, la planta araña y la hierba gatera. Sin embargo, es importante investigar cada planta específica, ya que algunas pueden ser tóxicas para ciertas mascotas. Siempre es mejor prevenir y mantener las plantas fuera del alcance de las mascotas curiosas.\n"
+              },
+              {
+                "text": "¡Entiendo tu preocupación! Para garantizar la seguridad de tus mascotas, es importante elegir plantas no tóxicas. Algunas opciones seguras para perros y gatos son la suculenta de jade, la hierba gatera, el helecho de Boston y la hierbabuena. Recuerda investigar cada planta específica para asegurarte de que sea segura para tus mascotas.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1713883840676"
+      },
+      "conditions": "#mascotas",
+      "dialog_node": "node_3_1713884734640",
+      "previous_sibling": "node_8_1713888207403"
+    },
+    {
+      "type": "standard",
+      "title": "saber mucho más",
+      "parent": "node_9_1715954565093",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#tamaño || #luz || #riego || #negar",
+      "dialog_node": "node_3_1715956234814"
+    },
+    {
+      "type": "frame",
+      "title": "Riego Plantas",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1713883840676"
+      },
+      "conditions": "#riego",
+      "dialog_node": "node_4_1713887489423",
+      "previous_sibling": "node_10_1715957070271"
+    },
+    {
+      "type": "standard",
+      "title": "riego_suculenta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Las suculentas son plantas que disfrutan de la sequedad y no les va bien con el exceso de agua! Te recomendaría regar tu suculenta aproximadamente cada 2-3 semanas durante los meses más cálidos y reducir el riego durante el invierno. Pero recuerda, siempre es mejor verificar la humedad del suelo antes de regar. Deja que la tierra se seque por completo entre riegos para evitar el riesgo de pudrición de las raíces. ¡Espero que estos consejos te ayuden a mantener tu suculenta feliz y saludable! 🌵💧\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1715856321384",
+      "context": {
+        "info_suculenta": "riego_suculenta"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1715957070271"
+      },
+      "conditions": "@informacion_suculenta:riego_suculenta",
+      "dialog_node": "node_4_1715854679012",
+      "previous_sibling": "node_2_1715853991646"
+    },
+    {
+      "type": "standard",
+      "title": "respuestas saber mucho mucho más suculenta",
+      "output": {},
+      "parent": "node_29_1715957423521",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#afirmar || #negar || #tamaño || #luz || #riego",
+      "dialog_node": "node_45_1715957495494"
+    },
+    {
+      "type": "standard",
+      "title": "florecimiento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para fomentar una floración abundante, asegúrate de que tus plantas reciban suficiente luz solar, proporciona un buen drenaje para evitar el encharcamiento del suelo y fertiliza ocasionalmente con un fertilizante equilibrado durante la temporada de crecimiento. También puedes probar a podar las flores marchitas para estimular la producción de nuevas flores. ¡Verás cómo tus plantas se llenan de color! 🌸🌻\n"
+              },
+              {
+                "text": "Para fomentar la floración de tus plantas, es importante brindarles las condiciones adecuadas. Asegúrate de proporcionar suficiente luz solar, agua y nutrientes. Además, puedes probar técnicas como la poda adecuada, el uso de fertilizantes específicos para flores y el control de plagas y enfermedades. Recuerda que cada planta es única, así que experimenta y encuentra lo que funciona mejor para tus plantas. ¡Espero que estos consejos te ayuden a tener hermosas flores en tu jardín! 🌸\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1713883840676"
+      },
+      "conditions": "#florecer",
+      "dialog_node": "node_5_1713885449685",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "info_poto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El poto, también conocido como Epipremnum aureum, es una planta de interior popular debido a su fácil cuidado y su capacidad para prosperar en condiciones de luz variable. Sus hojas variegadas en tonos de verde y amarillo la convierten en una opción llamativa para cualquier hogar u oficina. Prefiere la luz indirecta y solo necesita riego ocasional. ¡Es una excelente opción para principiantes en jardinería!\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1715857699994",
+      "context": {
+        "info_poto": "info_poto"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1715951346270"
+      },
+      "conditions": "@informacion_poto:info_poto && #Informacion && @plantas:poto",
+      "dialog_node": "node_5_1715857353181"
+    },
+    {
+      "type": "standard",
+      "title": "saber mucho mucho más ",
+      "output": {},
+      "parent": "node_3_1715956234814",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#tamaño || #luz || #riego || #negar",
+      "dialog_node": "node_5_1715956968830"
+    },
+    {
+      "type": "standard",
+      "title": "tamaño",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1713883840676"
+      },
+      "conditions": "#tamaño",
+      "dialog_node": "node_5_1716020066228",
+      "previous_sibling": "node_2_1713887366030"
+    },
+    {
+      "type": "standard",
+      "title": "pérdida de hojas",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1713883840676"
+      },
+      "conditions": "#perdida_hojas",
+      "dialog_node": "node_6_1713886876789",
+      "previous_sibling": "node_5_1716020066228"
+    },
+    {
+      "type": "standard",
+      "title": "luz_poto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El poto puede tolerar condiciones de poca luz, pero prefiere la luz brillante e indirecta para mantener su mejor color y crecimiento. Si planeas colocarla en un área con poca luz, asegúrate de que reciba algo de luz natural indirecta durante el día para mantenerla feliz y saludable.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1715857699994",
+      "context": {
+        "info_poto": "luz_poto"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1715951346270"
+      },
+      "conditions": "@informacion_poto:luz_poto",
+      "dialog_node": "node_6_1715857359092",
+      "previous_sibling": "node_7_1715857361891"
+    },
+    {
+      "type": "standard",
+      "title": "Saber más Poto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Tienes alguna otra pregunta sobre el poto? 🌱 "
+              },
+              {
+                "text": "¿Hay alguna otra cosa del poto que te interese saber?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1715954565093"
+      },
+      "conditions": "@informacion_poto",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1715951346270",
+      "previous_sibling": "node_10_1715857699994"
+    },
+    {
+      "type": "standard",
+      "title": "Basta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Espero haber resuelto todas tus dudas sobre la suculenta! ¿Te puedo ayudar en algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_45_1715957495494",
+      "conditions": "#negar",
+      "dialog_node": "node_6_1715957741377"
+    },
+    {
+      "type": "frame",
+      "title": "tamaño_poto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La Pothos es conocida por su rápido crecimiento y puede alcanzar longitudes impresionantes de hasta 20 metros en condiciones ideales. Sin embargo, es fácil de controlar su tamaño mediante la poda regular.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1715857699994",
+      "context": {
+        "info_poto": "tamaño_poto"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1715951346270"
+      },
+      "conditions": "@informacion_poto:tamaño_poto",
+      "dialog_node": "node_7_1715857361891",
+      "previous_sibling": "node_5_1715857353181"
+    },
+    {
+      "type": "standard",
+      "title": "respuestas",
+      "parent": "node_10_1713883840676",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#afirmar || #negar",
+      "dialog_node": "node_8_1713884197802"
+    },
+    {
+      "type": "standard",
+      "title": "eres un robot??",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estás hablando con tu asistente Plant.ia. Aunque no soy humano, estoy aquí para ayudarte con todo lo relacionado con las plantas y la jardinería. ¿En qué puedo ayudarte hoy? 🌱\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#bot_challenge",
+      "dialog_node": "node_8_1713884902788",
+      "previous_sibling": "node_2_1713884762654"
+    },
+    {
+      "type": "standard",
+      "title": "macetas",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1713883840676"
+      },
+      "conditions": "#macetas",
+      "dialog_node": "node_8_1713888207403",
+      "previous_sibling": "node_3_1713883058514"
+    },
+    {
+      "type": "standard",
+      "title": "riego_poto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para regar el poto simplemente asegúrate de que el suelo esté ligeramente húmedo pero no empapado. Permite que la capa superior del suelo se seque entre riegos y evita el exceso de agua estancada en la maceta, ya que puede causar problemas de pudrición de raíces.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1715857699994",
+      "context": {
+        "info_poto": "riego_poto"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1715951346270"
+      },
+      "conditions": "@informacion_poto:riego_poto",
+      "dialog_node": "node_8_1715857365510",
+      "previous_sibling": "node_6_1715857359092"
+    },
+    {
+      "type": "standard",
+      "title": "respuestas saber más",
+      "parent": "node_6_1715951346270",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#afirmar || #negar || #tamaño || #luz || #riego",
+      "dialog_node": "node_9_1715954565093"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Las manchas marrones en las hojas pueden ser signo de varias cosas, como enfermedades fúngicas o incluso exceso de sol. Es importante identificar la causa para encontrar la mejor solución. Puedes probar a cortar las hojas afectadas y mejorar la circulación de aire alrededor de tus plantas. Y si la situación empeora, no dudes en consultarme de nuevo. ¡Estoy aquí para ayudarte! 🍃🔍"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1713883058514",
+      "conditions": "@manchas_marrones",
+      "dialog_node": "response_10_1713883791204",
+      "previous_sibling": "response_6_1713883675587"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por lo general, las suculentas tienden a ser de tamaño pequeño a mediano, con algunas especies que pueden crecer más grandes. Las suculentas más comunes que se encuentran en interiores suelen tener un tamaño compacto, lo que las hace perfectas para espacios reducidos. Sin embargo, hay variedades más grandes que pueden alcanzar varios pies de altura en condiciones óptimas de crecimiento.🌵📏\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1716020066228",
+      "conditions": "@plantas:suculenta",
+      "dialog_node": "response_10_1716020438830"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La pérdida de hojas puede ser causada por diversos factores, como la falta de luz, un riego inadecuado o cambios repentinos de temperatura. Es importante identificar la causa subyacente. 🌿 Intenta ubicar tus plantas en un lugar con luz indirecta brillante y asegúrate de mantener un programa de riego regular. Además, evita cambios bruscos de temperatura y corrientes de aire. Observa cómo responden tus plantas y ajusta el cuidado en consecuencia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1713886876789",
+      "conditions": "#perdida_hojas",
+      "dialog_node": "response_1_1713886912522",
+      "previous_sibling": "response_7_1713886920211"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Tienes alguna otra pregunta sobre el poto? 🌱"
+              },
+              {
+                "text": "¿Hay algo más en lo que te pueda ayudar? 🌿"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1715951346270",
+      "context": {},
+      "disabled": true,
+      "conditions": "@informacion_poto",
+      "dialog_node": "response_1_1715954545709",
+      "previous_sibling": "node_9_1715954565093"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Espero que hayas resuelto todas tus dudas del poto! ¿Hay algo más en lo que te pueda ayudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1715956234814",
+      "conditions": "#negar",
+      "dialog_node": "response_1_1715956727123",
+      "previous_sibling": "response_3_1715956576683"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Lamento que mi respuesta no haya sido útil esta vez. Estamos en una etapa temprana y aún tenemos mucho por mejorar. Tu feedback nos ayuda a crecer. Gracias por tu paciencia. 🌱"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1713884197802",
+      "conditions": "#negar",
+      "dialog_node": "response_2_1713884224927",
+      "previous_sibling": "response_9_1713884206013"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tus plantas de interior necesitan luz brillante pero indirecta. Colócalas cerca de una ventana soleada, pero asegúrate de que no reciban luz directa durante demasiado tiempo. ¡Así lucirán felices y saludables! 🌞🌿"
+              },
+              {
+                "text": "La mayoría de las plantas de interior se desarrollan bien con luz indirecta. Te sugiero ubicarlas en lugares donde reciban una buena cantidad de luz natural, pero asegurándote de que no estén expuestas a la luz solar directa durante largos períodos. ¡Espero que estos consejos te ayuden a cuidar tus plantas en casa! 🌞\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1713887366030",
+      "conditions": "@interior",
+      "dialog_node": "response_2_1715953627886",
+      "previous_sibling": "slot_6_1716018437879"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Puedo darte consejos sobre riego, tamaño o luz 🌞"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1715957070272",
+      "conditions": "#afirmar",
+      "dialog_node": "response_22_1715957070272",
+      "previous_sibling": "node_29_1715957423521"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar en algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1715957070272",
+      "conditions": "#negar",
+      "dialog_node": "response_23_1715957070272",
+      "previous_sibling": "response_22_1715957070272"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por lo general, las suculentas tienden a ser de tamaño pequeño a mediano, con algunas especies que pueden crecer más grandes. Las suculentas más comunes que se encuentran en interiores suelen tener un tamaño compacto, lo que las hace perfectas para espacios reducidos. Sin embargo, hay variedades más grandes que pueden alcanzar varios pies de altura en condiciones óptimas de crecimiento.🌵📏\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Tienes alguna otra duda de la suculenta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1715957070272",
+      "context": {
+        "info_suculenta": "tamaño_suculenta"
+      },
+      "conditions": "#tamaño",
+      "dialog_node": "response_24_1715957070272",
+      "previous_sibling": "response_23_1715957070272"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Las suculentas suelen prosperar en entornos con mucha luz solar, preferiblemente luz brillante pero indirecta. Algunas variedades pueden tolerar algo de luz solar directa, pero es importante evitar exponerlas a largas horas de sol intenso, especialmente en climas calurosos. Siempre es mejor observar la reacción de tu suculenta y ajustar su ubicación según sea necesario para evitar quemaduras solares. 🌞🌵\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Tienes alguna otra pregunta sobre la suculenta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1715957070272",
+      "context": {
+        "info_suculenta": "luz_suculenta"
+      },
+      "conditions": "#luz",
+      "dialog_node": "response_25_1715957070272",
+      "previous_sibling": "response_24_1715957070272"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Las suculentas son plantas que disfrutan de la sequedad y no les va bien con el exceso de agua! Te recomendaría regar tu suculenta aproximadamente cada 2-3 semanas durante los meses más cálidos y reducir el riego durante el invierno. Pero recuerda, siempre es mejor verificar la humedad del suelo antes de regar. Deja que la tierra se seque por completo entre riegos para evitar el riesgo de pudrición de las raíces. ¡Espero que estos consejos te ayuden a mantener tu suculenta feliz y saludable! 🌵💧\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Hay algo más que te interese saber de la suculenta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1715957070272",
+      "context": {
+        "info_suculenta": "riego_suculenta"
+      },
+      "conditions": "#riego",
+      "dialog_node": "response_26_1715957070272",
+      "previous_sibling": "response_25_1715957070272"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Tienes alguna otra pregunta sobre el poto? 🌱"
+              },
+              {
+                "text": "¿Hay algo más en lo que te pueda ayudar? 🌿"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1715957070271",
+      "context": {},
+      "disabled": true,
+      "conditions": "@informacion_poto",
+      "dialog_node": "response_27_1715957070272",
+      "previous_sibling": "node_11_1715957070272"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Tienes alguna otra pregunta sobre la suculenta? 🌱"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1715957070271",
+      "disabled": true,
+      "conditions": "@informacion_suculenta",
+      "dialog_node": "response_28_1715957070272",
+      "previous_sibling": "response_27_1715957070272"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El poto puede tolerar condiciones de poca luz, pero prefiere la luz brillante e indirecta para mantener su mejor color y crecimiento. Si planeas colocarla en un área con poca luz, asegúrate de que reciba algo de luz natural indirecta durante el día para mantenerla feliz y saludable. \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar en algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1715956234814",
+      "context": {
+        "info_poto": "luz_poto"
+      },
+      "conditions": "#luz",
+      "dialog_node": "response_3_1715956358126",
+      "previous_sibling": "response_9_1715956255725"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para regar el poto simplemente asegúrate de que el suelo esté ligeramente húmedo pero no empapado. Permite que la capa superior del suelo se seque entre riegos y evita el exceso de agua estancada en la maceta, ya que puede causar problemas de pudrición de raíces.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar en algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1715956234814",
+      "context": {
+        "info_poto": "riego_poto"
+      },
+      "conditions": "#riego",
+      "dialog_node": "response_3_1715956576683",
+      "previous_sibling": "response_3_1715956358126"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Puedo darte consejos sobre riego, tamaño o luz 🌞"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1715957423521",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1715856321384"
+      },
+      "conditions": "#afirmar",
+      "dialog_node": "response_40_1715957423523",
+      "previous_sibling": "node_45_1715957495494"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Espero haber resuelto todas tus dudas sobre la suculenta! ¿Te puedo ayudar en algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1715957423521",
+      "conditions": "#negar",
+      "dialog_node": "response_41_1715957423523",
+      "previous_sibling": "response_40_1715957423523"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "informacion_poto",
+            "options": [
+              {
+                "label": "¿Cuáles son sus características?",
+                "value": {
+                  "input": {
+                    "text": "\"info\""
+                  }
+                }
+              },
+              {
+                "label": "¿Cuánta luz necesita?",
+                "value": {
+                  "input": {
+                    "text": "\"luz\""
+                  }
+                }
+              },
+              {
+                "label": "¿Cuánto crece?",
+                "value": {
+                  "input": {
+                    "text": "\"tamaño\""
+                  }
+                }
+              },
+              {
+                "label": "¿Cómo debe regarse?",
+                "value": {
+                  "input": {
+                    "text": "\"riego\""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1715856321384",
+      "disabled": true,
+      "conditions": "#Informacion && @plantas:poto",
+      "dialog_node": "response_4_1715856331967",
+      "previous_sibling": "node_1_1715854381824"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El poto puede tolerar condiciones de poca luz, pero prefiere la luz brillante e indirecta para mantener su mejor color y crecimiento. Si planeas colocarla en un área con poca luz, asegúrate de que reciba algo de luz natural indirecta durante el día para mantenerla feliz y saludable. 🌅\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Tienes alguna otra pregunta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1715954565093",
+      "context": {
+        "info_poto": "luz_poto"
+      },
+      "conditions": "#luz",
+      "dialog_node": "response_4_1715955481076",
+      "previous_sibling": "response_6_1715955283700"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por lo general, las suculentas tienden a ser de tamaño pequeño a mediano, con algunas especies que pueden crecer más grandes. Las suculentas más comunes que se encuentran en interiores suelen tener un tamaño compacto, lo que las hace perfectas para espacios reducidos. Sin embargo, hay variedades más grandes que pueden alcanzar varios pies de altura en condiciones óptimas de crecimiento.🌵📏\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Tienes alguna otra duda de la suculenta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1715957423521",
+      "context": {
+        "info_suculenta": "tamaño_suculenta"
+      },
+      "conditions": "#tamaño",
+      "dialog_node": "response_42_1715957423523",
+      "previous_sibling": "response_41_1715957423523"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Las suculentas suelen prosperar en entornos con mucha luz solar, preferiblemente luz brillante pero indirecta. Algunas variedades pueden tolerar algo de luz solar directa, pero es importante evitar exponerlas a largas horas de sol intenso, especialmente en climas calurosos. Siempre es mejor observar la reacción de tu suculenta y ajustar su ubicación según sea necesario para evitar quemaduras solares. 🌞🌵\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Tienes alguna otra pregunta sobre la suculenta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1715957423521",
+      "context": {
+        "info_suculenta": "luz_suculenta"
+      },
+      "conditions": "#luz",
+      "dialog_node": "response_43_1715957423523",
+      "previous_sibling": "response_42_1715957423523"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Las suculentas son plantas que disfrutan de la sequedad y no les va bien con el exceso de agua! Te recomendaría regar tu suculenta aproximadamente cada 2-3 semanas durante los meses más cálidos y reducir el riego durante el invierno. Pero recuerda, siempre es mejor verificar la humedad del suelo antes de regar. Deja que la tierra se seque por completo entre riegos para evitar el riesgo de pudrición de las raíces. ¡Espero que estos consejos te ayuden a mantener tu suculenta feliz y saludable! 🌵💧\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Hay algo más que te interese saber de la suculenta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1715957423521",
+      "context": {
+        "info_suculenta": "riego_suculenta"
+      },
+      "conditions": "#riego",
+      "dialog_node": "response_44_1715957423523",
+      "previous_sibling": "response_43_1715957423523"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Puedo darte consejos sobre riego, tamaño o luz 🌞"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_45_1715957495494",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1715856321384"
+      },
+      "conditions": "#afirmar",
+      "dialog_node": "response_46_1715957495495",
+      "previous_sibling": "node_6_1715957741377"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Espero haber resuelto todas tus dudas sobre la suculenta! ¿Te puedo ayudar en algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_45_1715957495494",
+      "conditions": "#negar",
+      "dialog_node": "response_47_1715957495495",
+      "previous_sibling": "response_46_1715957495495"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por lo general, las suculentas tienden a ser de tamaño pequeño a mediano, con algunas especies que pueden crecer más grandes. Las suculentas más comunes que se encuentran en interiores suelen tener un tamaño compacto, lo que las hace perfectas para espacios reducidos. Sin embargo, hay variedades más grandes que pueden alcanzar varios pies de altura en condiciones óptimas de crecimiento.🌵📏\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Tienes alguna otra duda de la suculenta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_45_1715957495494",
+      "context": {
+        "info_suculenta": "tamaño_suculenta"
+      },
+      "conditions": "#tamaño",
+      "dialog_node": "response_48_1715957495495",
+      "previous_sibling": "response_47_1715957495495"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Las suculentas suelen prosperar en entornos con mucha luz solar, preferiblemente luz brillante pero indirecta. Algunas variedades pueden tolerar algo de luz solar directa, pero es importante evitar exponerlas a largas horas de sol intenso, especialmente en climas calurosos. Siempre es mejor observar la reacción de tu suculenta y ajustar su ubicación según sea necesario para evitar quemaduras solares. 🌞🌵\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Tienes alguna otra pregunta sobre la suculenta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_45_1715957495494",
+      "context": {
+        "info_suculenta": "luz_suculenta"
+      },
+      "conditions": "#luz",
+      "dialog_node": "response_49_1715957495495",
+      "previous_sibling": "response_48_1715957495495"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Las suculentas son plantas que disfrutan de la sequedad y no les va bien con el exceso de agua! Te recomendaría regar tu suculenta aproximadamente cada 2-3 semanas durante los meses más cálidos y reducir el riego durante el invierno. Pero recuerda, siempre es mejor verificar la humedad del suelo antes de regar. Deja que la tierra se seque por completo entre riegos para evitar el riesgo de pudrición de las raíces. ¡Espero que estos consejos te ayuden a mantener tu suculenta feliz y saludable! 🌵💧\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Hay algo más que te interese saber de la suculenta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_45_1715957495494",
+      "context": {
+        "info_suculenta": "riego_suculenta"
+      },
+      "conditions": "#riego",
+      "dialog_node": "response_50_1715957495495",
+      "previous_sibling": "response_49_1715957495495"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_8_1713888207403",
+      "conditions": "@plastico && #macetas",
+      "dialog_node": "response_5_1713888224500"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Las macetas vienen en muchos materiales diferentes, pero las de barro cocido o cerámica son excelentes opciones para plantas de interior, ya que permiten una buena circulación de aire y absorben el exceso de agua. Además, ¡pueden ser tan bonitas como tus plantas! 🌸🏺"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1713888207403",
+      "conditions": "#macetas",
+      "dialog_node": "response_5_1713888287338",
+      "previous_sibling": "response_5_1713888224500"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "info_suculenta",
+            "options": [
+              {
+                "label": "¿Cuáles son sus características?",
+                "value": {
+                  "input": {
+                    "text": "\"info\""
+                  }
+                }
+              },
+              {
+                "label": "¿Cuánta luz necesita?",
+                "value": {
+                  "input": {
+                    "text": "\"luz\""
+                  }
+                }
+              },
+              {
+                "label": "¿Cuánto crece?",
+                "value": {
+                  "input": {
+                    "text": "\"tamaño\""
+                  }
+                }
+              },
+              {
+                "label": "¿Cómo debe regarse?",
+                "value": {
+                  "input": {
+                    "text": "\"riego\""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1715856321384",
+      "disabled": true,
+      "conditions": "@plantas:suculenta && #Informacion",
+      "dialog_node": "response_5_1715857106288",
+      "previous_sibling": "response_4_1715856331967"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Las suculentas son plantas que disfrutan de la sequedad y no les va bien con el exceso de agua! Te recomendaría regar tu suculenta aproximadamente cada 2-3 semanas durante los meses más cálidos y reducir el riego durante el invierno. Pero recuerda, siempre es mejor verificar la humedad del suelo antes de regar. Deja que la tierra se seque por completo entre riegos para evitar el riesgo de pudrición de las raíces. ¡Espero que estos consejos te ayuden a mantener tu suculenta feliz y saludable! 🌵💧\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1713887489423",
+      "conditions": "@plantas:suculenta",
+      "dialog_node": "response_5_1715953447310",
+      "previous_sibling": "response_8_1713887809225"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Las suculentas suelen prosperar en entornos con mucha luz solar, preferiblemente luz brillante pero indirecta. Algunas variedades pueden tolerar algo de luz solar directa, pero es importante evitar exponerlas a largas horas de sol intenso, especialmente en climas calurosos. Siempre es mejor observar la reacción de tu suculenta y ajustar su ubicación según sea necesario para evitar quemaduras solares. 🌞🌵"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1713887366030",
+      "conditions": "@plantas:suculenta",
+      "dialog_node": "response_5_1715953679751",
+      "previous_sibling": "response_2_1715953627886"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El poto puede tolerar condiciones de poca luz, pero prefiere la luz brillante e indirecta para mantener su mejor color y crecimiento. Si planeas colocarla en un área con poca luz, asegúrate de que reciba algo de luz natural indirecta durante el día para mantenerla feliz y saludable."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1713887366030",
+      "conditions": "@plantas:poto",
+      "dialog_node": "response_5_1715953708268",
+      "previous_sibling": "response_5_1715953679751"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Puedo darte consejos sobre riego, tamaño o luz 🌞"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1715954565093",
+      "conditions": "#afirmar",
+      "dialog_node": "response_5_1715954586347",
+      "previous_sibling": "node_3_1715956234814"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lo primero es mantener la calma. Si encuentras bichitos en tus plantas,  podría ser una plaga común como los áfidos. Puedes probar a limpiar las hojas con un paño húmedo o aplicar un insecticida suave. Recuerda revisar otras plantas cercanas por si acaso. ¡Juntos podemos hacer que tus plantas vuelvan a brillar! 🐞🌿"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1713883058514",
+      "conditions": "@insectos",
+      "dialog_node": "response_6_1713883675587"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Tienes alguna otra pregunta sobre la suculenta? 🌱"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1715951346270",
+      "disabled": true,
+      "conditions": "@informacion_suculenta",
+      "dialog_node": "response_6_1715954646936",
+      "previous_sibling": "response_1_1715954545709"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La Pothos es conocida por su rápido crecimiento y puede alcanzar longitudes impresionantes de hasta 20 metros en condiciones ideales. Sin embargo, es fácil de controlar su tamaño mediante la poda regular."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Tienes alguna otra pregunta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1715954565093",
+      "context": {
+        "info_poto": "tamaño_poto"
+      },
+      "conditions": "#tamaño",
+      "dialog_node": "response_6_1715955283700",
+      "previous_sibling": "response_9_1715954604693"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para regar el poto simplemente asegúrate de que el suelo esté ligeramente húmedo pero no empapado. Permite que la capa superior del suelo se seque entre riegos y evita el exceso de agua estancada en la maceta, ya que puede causar problemas de pudrición de raíces.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Hay algo más que te interese saber del poto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1715954565093",
+      "context": {
+        "info_poto": "riego_poto"
+      },
+      "conditions": "#riego",
+      "dialog_node": "response_6_1715956494356",
+      "previous_sibling": "response_4_1715955481076"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La Pothos es conocida por su rápido crecimiento y puede alcanzar longitudes impresionantes de hasta 20 metros en condiciones ideales. Sin embargo, es fácil de controlar su tamaño mediante la poda regular.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Hay algo más con lo que te pueda ayudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1715956968830",
+      "conditions": "#tamaño",
+      "dialog_node": "response_6_1715956968831"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La Pothos es conocida por su rápido crecimiento y puede alcanzar longitudes impresionantes de hasta 20 metros en condiciones ideales. Sin embargo, es fácil de controlar su tamaño mediante la poda regular."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1716020066228",
+      "conditions": "@plantas:poto",
+      "dialog_node": "response_6_1716020458993",
+      "previous_sibling": "response_10_1716020438830"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es bastante normal que algunas plantas pierdan hojas en invierno debido a la disminución de la luz y la temperatura. Es una forma natural de conservar energía y adaptarse al entorno. No te preocupes demasiado, ¡las hojas volverán a crecer en primavera!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1713886876789",
+      "conditions": "@invierno && #perdida_hojas",
+      "dialog_node": "response_7_1713886920211"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El poto puede tolerar condiciones de poca luz, pero prefiere la luz brillante e indirecta para mantener su mejor color y crecimiento. Si planeas colocarla en un área con poca luz, asegúrate de que reciba algo de luz natural indirecta durante el día para mantenerla feliz y saludable. \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar en algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1715956968830",
+      "context": {
+        "info_poto": "luz_poto"
+      },
+      "conditions": "#luz",
+      "dialog_node": "response_7_1715956968831",
+      "previous_sibling": "response_6_1715956968831"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para las plantas de exterior, es importante prestar atención a las condiciones climáticas y al tipo de suelo en el que están plantadas. Generalmente, las plantas de exterior necesitan menos riego que las de interior, ya que están expuestas a la lluvia y a la humedad del ambiente. Sin embargo, en épocas de calor intenso o sequía, es posible que necesiten un riego más frecuente. Te recomendaría verificar la humedad del suelo cada pocos días y ajustar la frecuencia de riego según sea necesario. ¡Espero que estas recomendaciones te ayuden a mantener tus plantas de exterior en óptimas condiciones! 💧🌿"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1713887489423",
+      "conditions": "@exterior",
+      "dialog_node": "response_8_1713887809225",
+      "previous_sibling": "response_9_1713887800183"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para regar el poto simplemente asegúrate de que el suelo esté ligeramente húmedo pero no empapado. Permite que la capa superior del suelo se seque entre riegos y evita el exceso de agua estancada en la maceta, ya que puede causar problemas de pudrición de raíces.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar en algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1715956968830",
+      "context": {
+        "info_poto": "riego_poto"
+      },
+      "conditions": "#riego",
+      "dialog_node": "response_8_1715956968831",
+      "previous_sibling": "response_7_1715956968831"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me alegra mucho saber que mi respuesta te ha sido útil! Siempre estoy aquí para ayudarte con tus preguntas sobre plantas y jardinería. Si necesitas más consejos o información, ¡no dudes en preguntar! 🌿 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1713884197802",
+      "conditions": "#afirmar",
+      "dialog_node": "response_9_1713884206013"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para saber cuándo regar tus plantas de interior, simplemente verifica si la capa superior del suelo está seca al tacto. Si es así, es hora de regarlas. En cuanto a la frecuencia, depende del tipo de planta y del entorno, pero generalmente es mejor regarlas cuando el suelo está seco. ¡Espero que esto te ayude a mantener tus plantas felices y saludables! 💧🌱"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1713887489423",
+      "conditions": "@interior",
+      "dialog_node": "response_9_1713887800183"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para regar el poto simplemente asegúrate de que el suelo esté ligeramente húmedo pero no empapado. Permite que la capa superior del suelo se seque entre riegos y evita el exceso de agua estancada en la maceta, ya que puede causar problemas de pudrición de raíces.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1713887489423",
+      "conditions": "@plantas:poto",
+      "dialog_node": "response_9_1715953495329",
+      "previous_sibling": "response_5_1715953447310"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar en algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1715954565093",
+      "conditions": "#negar",
+      "dialog_node": "response_9_1715954604693",
+      "previous_sibling": "response_5_1715954586347"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La Pothos es conocida por su rápido crecimiento y puede alcanzar longitudes impresionantes de hasta 20 metros en condiciones ideales. Sin embargo, es fácil de controlar su tamaño mediante la poda regular.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Hay algo más con lo que te pueda ayudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1715956234814",
+      "conditions": "#tamaño",
+      "dialog_node": "response_9_1715956255725",
+      "previous_sibling": "node_5_1715956968830"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Espero que hayas resuelto todas tus dudas del poto! ¿Hay algo más en lo que te pueda ayudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1715956968830",
+      "conditions": "#negar",
+      "dialog_node": "response_9_1715956968831",
+      "previous_sibling": "response_8_1715956968831"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1715857353181",
+      "dialog_node": "slot_10_1715953883038"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1716020066228",
+      "variable": "$plantas_suculenta",
+      "dialog_node": "slot_3_1716020080021",
+      "previous_sibling": "response_6_1716020458993"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1713887366030",
+      "variable": "$plantas_poto",
+      "dialog_node": "slot_6_1716018437879",
+      "previous_sibling": "slot_9_1716018333797"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1713887366030",
+      "variable": "$plantas_suculenta",
+      "dialog_node": "slot_9_1716018333797"
+    }
+  ],
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "language": "es",
+  "description": "created for assistant fac7a387-6d06-4387-9cda-c97167b16ef8",
+  "name": "Plant.ia-dialog"
+}
