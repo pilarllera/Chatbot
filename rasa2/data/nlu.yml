@@ -1,0 +1,257 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hola!
+    - holi
+    - hola qué tal
+    - Buenos días
+    - buenas tardes
+    - hey qué pasa
+    - hola
+- intent: goodbye
+  examples: |
+    - hasta luego
+    - adiós, gracias
+    - nos vemos
+    - buenas noches
+    - chao
+    - que tengas un buen día
+    - hasta la próxima
+    - bye bye
+    - ya hablamos
+    - nada más, adiós!
+    - eso es todo, chao!
+- intent: affirm
+  examples: |
+    - sí
+    - s
+    - claro
+    - por supuesto
+    - ni lo dudes
+    - me parece bien
+    - correcto
+    - exacto
+    - eso es
+- intent: deny
+  examples: |
+    - no
+    - n
+    - nunca
+    - no creo
+    - para nada
+    - en absoluto
+    - ni de broma
+    - no de esa manera
+- intent: no_convencido
+  examples: |
+    - no estoy convencido
+    - me temo que no
+    - no estoy seguro
+- intent: bot_challenge
+  examples: |
+    - eres un bot?
+    - eres humano?
+    - estoy hablando con un bot?
+    - estoy hablando con un humano?
+- intent: dar_gracias
+  examples: |
+    - muchas gracias!
+    - justo lo que necesitaba, gracias!
+    - perfecto! gracias por la ayuda
+    - genial! gracias
+    - gracias
+    - vale, gracias
+- intent: regar_plantas
+  examples: |
+    - ¿Cómo sé cuándo tengo que regar mis plantas?
+    - ¿Cada cuánto tengo que regar las plantas?
+    - ¿Cómo puedo saber cuándo regar mis plantas?
+    - ¿Con qué frecuencia debo regar mis plantas?
+    - ¿Cada cuánto riego mis plantas?
+    - ¿Cuál es la mejor manera de determinar cuándo regar mis plantas?
+    - Quiero saber cuándo es el momento adecuado para regar mis plantas.
+    - Me gustaría saber cuándo es el momento adecuado para regar mis plantas.
+    - ¿Puedes darme consejos sobre cómo regar mis plantas tanto de interior como de exterior?
+    - ¿Qué recomendaciones tienes para el riego de plantas?
+    - ¿Cada cuánto la tengo que regar?
+    - ¿Cada cuánto se riega?
+    - ¿Cómo debo regarla?
+- intent: regar_plantas_interior
+  examples: |
+    - ¿Cómo sé cuándo tengo que regar mis plantas de [interior](tipo_de_planta)?
+    - ¿Cada cuánto tengo que regar las plantas de [interior](tipo_de_planta)?
+    - ¿Cuál es la mejor manera de determinar cuándo regar mis plantas de [interior](tipo_de_planta)?
+    - ¿Cada cuánto tiempo debo regar las plantas que tengo en casa?
+    - ¿Cómo puedo saber cuándo regar mis plantas de [interior](tipo_de_planta)?
+    - ¿Con qué frecuencia debo regar mis plantas de [interior](tipo_de_planta)?
+    - ¿Cada cuánto se tiene que regar la [suculenta](tipo_de_planta)
+- intent: regar_plantas_exterior
+  examples: |
+    - ¿Cómo sé cuándo tengo que regar mis plantas de exterior?
+    - ¿Cada cuánto tengo que regar las plantas de exterior?
+    - ¿Cómo puedo saber cuándo regar mis plantas de exterior?
+    - ¿Con qué frecuencia debo regar mis plantas de exterior?
+    - ¿Cada cuánto riego mis plantas de exterior?
+    - ¿Cuál es la mejor manera de determinar cuándo regar mis plantas de exterior?
+    - Quiero saber cuándo es el momento adecuado para regar mis plantas de exterior.
+    - Me gustaría saber cuándo es el momento adecuado para regar mis plantas de exterior.
+    - ¿Puedes darme consejos sobre cómo regar mis plantas de exterior?
+- intent: insectos
+  examples: |
+    - hay unos bichos en mis plantas y no sé qué hacer
+    - necesito ayuda, hay insectos en mis plantas
+    - Tengo un problema con mis plantas. Hay insectos por todas partes. ¿Cómo los elimino?
+    - Mis plantas están siendo devoradas por insectos. ¿Cómo puedo salvarlas?
+    - Mis plantas están en peligro! Necesito deshacerme de los insectos de inmediato. ¿Algún consejo?
+    - Necesito ayuda urgente. Los insectos están matando mis plantas. ¿Cómo puedo solucionarlo?
+    - ¡Ayuda! Mis plantas tienen insectos. ¿Qué debo hacer?
+    - Mis plantas están llenas de bichillos, ayúdame por favor
+- intent: manchas_marrones
+  examples: |
+    - ¿Qué debo hacer si mis plantas tienen manchas marrones en las hojas?
+    - He encontrado unas manchas marrones en las hojas de mis plantas y no sé qué hacer
+    - ¿Cómo puedo tratar las manchas marrones que están apareciendo en las hojas de mis plantas?
+    - Necesito ayuda urgente, ¡mis plantas tienen manchas marrones en las hojas y no sé cómo solucionarlo!
+    - Mis plantas están mostrando manchas marrones en las hojas, ¿qué debo hacer para que vuelvan a estar normales?
+    - Las hojas de mis plantas tienen manchas marrones, ¿cómo puedo evitar que se propaguen?
+    - ¿Qué significa si mis plantas están desarrollando manchas marrones en las hojas y cómo puedo remediarlo?
+- intent: mascotas
+  examples: |
+    - ¿Qué plantas son seguras para tener cerca de mascotas?
+    - Tengo un perro y me da miedo tener alguna planta que sea tóxica para él
+    - Qué plantas puedo tener que no sean tóxicas para mi gato.
+    - Qué plantas son seguras para mi gato
+    - Qué plantas puedo tener en casa si tengo un gato
+    - ¿Cuáles son las plantas más seguras para tener en casa si tengo mascotas?
+    - Quiero comprar una planta pero tengo miedo que sea tóxica para mi gato, qué me recomiendas
+    - Me preocupa la seguridad de mis mascotas, ¿qué plantas puedo tener en casa que no sean tóxicas para ellas?
+    - Tengo un gato en casa, ¿qué plantas puedo cultivar que no representen un peligro para él?
+    - ¿Hay plantas que sean seguras para mis mascotas?
+    - Quiero crear un espacio verde en casa, pero tengo un perro y un gato. ¿Qué plantas puedo elegir que no sean dañinas para ellos?
+- intent: florecer
+  examples: |
+    - ¿Qué puedo hacer para que mis plantas florezcan más?
+    - Cómo hago para que a mis plantas le salgan más flores
+    - ¿Qué puedo hacer para estimular la floración de mis plantas?
+    - ¿Cómo puedo hacer que mis plantas florezcan durante más tiempo?
+    - Quiero que mis plantas tengan más flores, ¿qué debo hacer?
+    - ¿Hay algo que pueda utilizar para promover la floración de mis plantas?
+    - ¿Qué cuidados adicionales puedo proporcionar para que mis plantas produzcan más flores?
+    - ¿Cuál es la mejor manera para fomentar la floración?
+    - Mis plantas no están floreciendo tanto como esperaba, ¿qué puedo hacer para mejorar su floración?
+- intent: macetas
+  examples: |
+    - ¿Cuál es el mejor tipo de maceta para mis plantas de [interior](tipo_de_planta)?
+    - ¿Hay algún tipo de maceta específico que deba usar para las plantas de [interior](tipo_de_planta)?
+    - ¿Cuál es el material más adecuado para las macetas de plantas de [interior](tipo_de_planta)?
+    - ¿Debo elegir macetas de cerámica o plástico para mis plantas de [interior](tipo_de_planta)?
+    - ¿Las macetas de terracota son mejores que las de plástico para las plantas de [interior](tipo_de_planta)?
+    - ¿Cómo puedo saber si una maceta es adecuada para mis plantas de [interior](tipo_de_planta)?
+- intent: luz_interior
+  examples: |
+    - ¿Cuánta luz solar necesitan las plantas de [interior](tipo_de_planta)?
+    - ¿Cómo puedo proporcionar suficiente luz a mis plantas de [interior](tipo_de_planta)?
+    - ¿Qué debo hacer si mis plantas de [interior](tipo_de_planta) no reciben suficiente luz solar?
+    - ¿Cuál es la mejor ubicación para colocar mis plantas de [interior](tipo_de_planta) en términos de luz solar?
+    - ¿Cuántas horas de luz necesitan mis plantas de [interior](tipo_de_planta) para crecer saludables?
+    - ¿Cómo puedo saber si mis plantas de [interior](tipo_de_planta) están recibiendo suficiente luz?
+- intent: luz
+  examples: |
+    - ¿Cuánta luz necesita el [poto](tipo_de_planta)?
+    - El [poto](tipo_de_planta) necesita poca o mucha luz?
+    - ¿Cuánta luz solar necesita el [poto](tipo_de_planta)?
+    - ¿Cuántas horas de luz necesita mi [poto](tipo_de_planta) para crecer saludable?
+    - ¿Cómo sé cuánta luz necesita mi [poto](tipo_de_planta)?
+    - ¿Cuánta luz necesita la [suculenta](tipo_de_planta)?
+    - La [suculenta](tipo_de_planta) necesita poca o mucha luz?
+    - ¿Cuánta luz solar necesita la [suculenta](tipo_de_planta)?
+    - ¿Cuántas horas de luz necesita mi [suculenta](tipo_de_planta) para crecer saludable?
+    - ¿Cómo sé cuánta luz necesita mi [suculenta](tipo_de_planta)?
+    - cuánta luz necesita la [suculenta](tipo_de_planta)?
+    - cuánta luz necesita mi [suculenta](tipo_de_planta)?
+    - cuánta luz necesita la [suculenta](tipo_de_planta)?
+    - las [suculentas](tipo_de_planta) prefieren mucha o poca luz?
+- intent: perdida_hojas
+  examples: |
+    - ¿Es normal que mis plantas pierdan hojas en invierno?
+    - ¿Por qué mis plantas están perdiendo tantas hojas últimamente?
+    - ¿Qué puedo hacer si mis plantas están perdiendo hojas de repente?
+    - ¿Es normal que las plantas pierdan hojas cuando cambian de ubicación?
+    - ¿La falta de agua puede causar la caída de hojas en mis plantas?
+    - ¿Qué puedo hacer si mis plantas de interior están perdiendo hojas?
+- intent: sugerencia
+  examples: |
+    - Quiero una planta bonita y fácil de cuidar
+    - ¿Me recomiendas una planta?
+    - Estoy empezando y no sé qué planta comprar
+    - Necesito recomendaciones de plantas fáciles de cuidar
+    - Quiero una planta que sea muy resistente
+    - ¿Me recomiendas una planta que sea vistosa y que no sea muy complicada de cuidar?
+    - Estoy buscando una planta que no requiera mucho riego, ¿alguna sugerencia?
+    - ¿Cuál es una buena opción de planta para un principiante en jardinería?
+- intent: informacion_poto
+  examples: |
+    - Quiero saber información de cómo cuidar el [poto](tipo_de_planta)
+    - Me interesa saber sobre el [poto](tipo_de_planta)
+    - Quiero aprender a cuidar mi [poto](tipo_de_planta)
+    - ¿Cómo puedo mantener saludable mi [poto](tipo_de_planta)?
+    - Estoy interesado en conocer más sobre el [poto](tipo_de_planta)
+    - ¿Qué cuidados necesita el [poto](tipo_de_planta)?
+    - ahora dame información sobre el [poto](tipo_de_planta)
+- intent: informacion_suculenta
+  examples: |
+    - Quiero saber información de cómo cuidar la [suculenta](tipo_de_planta)
+    - Me interesa saber sobre la [suculenta](tipo_de_planta)
+    - Quiero aprender a cuidar mi [suculenta](tipo_de_planta)
+    - ¿Cómo puedo mantener saludable mi [suculenta](tipo_de_planta)?
+    - Estoy interesado en conocer más sobre la [suculenta](tipo_de_planta)
+    - ¿Qué cuidados necesita la [suculenta](tipo_de_planta)?
+    - dame información sobre la [suculenta](tipo_de_planta)
+    - dame información sobre la [suculenta](tipo_de_planta)
+- intent: riego
+  examples: |
+    - ¿Cómo sé cada cuánto tengo que regar mi [poto](tipo_de_planta)
+    - ¿Cómo sé cuándo tengo que regar mi [poto](tipo_de_planta)?
+    - ¿Cada cuánto tengo que regar la [poto](tipo_de_planta)?
+    - ¿Cómo puedo saber cuándo regar mi [poto](tipo_de_planta)?
+    - ¿Con qué frecuencia debo regar mi [poto](tipo_de_planta)?
+    - ¿Cada cuánto riego la [poto](tipo_de_planta)?
+    - ¿Cómo riego el [poto](tipo_de_planta)?
+    - ¿Cómo riego la [suculenta](tipo_de_planta)?
+    - ¿Cuál es la mejor manera de determinar cuándo regar una [poto](tipo_de_planta)?
+    - Quiero saber cuándo es el momento adecuado para regar mi [poto](tipo_de_planta)
+    - ¿Cómo sé cada cuánto tengo que regar mi [suculenta](tipo_de_planta)
+    - ¿Cómo sé cuándo tengo que regar mi [suculenta](tipo_de_planta)?
+    - ¿Cada cuánto tengo que regar la [suculenta](tipo_de_planta)?
+    - ¿Cómo puedo saber cuándo regar mi [suculenta](tipo_de_planta)?
+    - ¿Con qué frecuencia debo regar mi [suculenta](tipo_de_planta)?
+    - ¿Cada cuánto riego la [suculenta](tipo_de_planta)?
+    - ¿Cuál es la mejor manera de determinar cuándo regar una [suculenta](tipo_de_planta)?
+    - Quiero saber cuándo es el momento adecuado para regar mi [suculenta](tipo_de_planta).
+    - cuánto tengo que regar a la [suculenta](tipo_de_planta)?
+    - cómo tengo que regar mi [poto](tipo_de_planta)?
+    - cómo tengo que regar a mi [suculenta](tipo_de_planta)?
+    - cómo tengo que regar el [poto](tipo_de_planta)?
+    - cómo tengo que regar a la [suculenta](tipo_de_planta)?
+- intent: tamaño
+  examples: |
+    - Cuánto puede llegar a crecer la [suculenta](tipo_de_planta)
+    - Cuánto puede llegar a crecer el [poto](tipo_de_planta)
+    - Me interesa saber cuánto crece la [suculenta](tipo_de_planta)
+    - Me interesa saber cuánto crece el [poto](tipo_de_planta)
+    - Quiero saber cuánto puede crecer mi [suculenta](tipo_de_planta)
+    - Quiero saber cuánto puede crecer mi [poto](tipo_de_planta)
+    - ¿Cómo crece la [suculenta](tipo_de_planta)?
+    - ¿Cómo crece el [poto](tipo_de_planta)?
+    - Qué tamaño alcanza la [suculenta](tipo_de_planta)
+    - ¿Qué tamaño alcanza el [poto](tipo_de_planta)?
+    - qué tamaño alcanza la [suculenta](tipo_de_planta)?
+    - cuánto crece la [suculenta](tipo_de_planta)?
+    - cuánto crece el [poto](tipo_de_planta)
+    - qué tamaño puede alcanzar el [poto](tipo_de_planta)?
+    - qué tamaño alcanza la [suculenta](tipo_de_planta)?
+    - cuánto crece el [poto](tipo_de_planta)?
+    - qué tamaño alcanza el [poto](tipo_de_planta)?
+    - me gustaría saber qué tamaño alcanzan  las [suculentas](tipo_de_planta)?

@@ -1,0 +1,140 @@
+version: '3.1'
+intents:
+- affirm
+- bot_challenge
+- dar_gracias
+- deny
+- florecer
+- goodbye
+- greet
+- informacion_poto
+- informacion_suculenta
+- insectos
+- luz
+- luz_interior
+- macetas
+- manchas_marrones
+- mascotas
+- no_convencido
+- perdida_hojas
+- regar_plantas
+- regar_plantas_exterior
+- regar_plantas_interior
+- riego
+- sugerencia
+- tamaño
+entities:
+- tipo_de_planta
+slots:
+  plantas:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: tipo_de_planta
+responses:
+  utter_greet:
+  - text: ¡Hola! 🌱 Soy Plant.ia, tu asistente de jardinería. ¿Qué te trae por aquí hoy? 🌿
+  utter_did_that_help:
+  - text: ¿Te ha sido útil mi respuesta?
+  - text: ¿Encontraste útil mi respuesta?
+  utter_happy:
+  - text: 'Me alegra mucho saber que mi respuesta te ha sido útil! Siempre estoy aquí para ayudarte con tus preguntas sobre plantas y jardinería. Si necesitas más consejos o información, ¡no dudes en preguntar! 🌿 '
+  - text: ¡Me alegra saber que mi respuesta te ha sido útil! Siempre estoy disponible para ayudarte con tus preguntas sobre plantas y jardinería. No dudes en preguntar si necesitas más consejos. 🌿
+  utter_goodbye:
+  - text: ¡Espero que hayas encontrado útiles mis consejos! Siempre estoy aquí para ayudarte con tus proyectos de jardinería. ¡Hasta la próxima! 🌿
+  - text: ¡Espero que mis consejos te hayan sido útiles! No dudes en volver si necesitas más ayuda con tus proyectos de jardinería. ¡Nos vemos la próxima vez! 🌿
+  utter_iamabot:
+  - text: Estás hablando con tu asistente Plant.ia. Aunque no soy humano, estoy aquí para ayudarte con todo lo relacionado con las plantas y la jardinería. ¿En qué puedo ayudarte hoy? 🌱
+  - text: Soy Plant.ia, tu asistente de jardinería. Aunque soy solo un programa, estoy aquí para brindarte toda la ayuda que necesites con tus plantas y proyectos de jardinería. ¿En qué puedo asistirte hoy? 🌿
+  utter_denada:
+  - text: ¡De nada! Si necesitas más ayuda en el futuro, no dudes en preguntar. ¡Feliz jardinería! 🌱
+  - text: ¡No hay de qué! Siempre estoy aquí para ayudar. Si alguna vez necesitas más consejos o tienes alguna otra pregunta, ¡no dudes en decírmelo! Que tengas un día lleno de verde y felicidad en tu jardín. 🌿
+  utter_perdon:
+  - text: Lamento que mi respuesta no haya sido útil esta vez. Estamos en una etapa temprana y aún tenemos mucho por mejorar. Tu feedback nos ayuda a crecer. Gracias por tu paciencia. 🌱
+  - text: Qué pena que mi respuesta no haya sido de ayuda. Aún estamos aprendiendo y esperamos mejorar pronto. ¡Gracias por tu comprensión! 🌿
+  utter_riego:
+  - text: ¿Qué tipo de planta tienes?
+    buttons:
+    - title: de interior
+      payload: /regar_plantas_interior
+    - title: de exterior
+      payload: /regar_plantas_exterior
+  utter_riego_interior:
+  - text: ' Para saber cuándo regar tus plantas, simplemente verifica si la capa superior del suelo está seca al tacto.  Si es así, es hora de regarlas. En cuanto a la frecuencia, depende del tipo de planta y del entorno, pero generalmente es mejor regarlas cuando el suelo está seco. ¡Espero que esto te ayude a mantener tus plantas felices y saludables! 💧🌱'
+  utter_riego_exterior:
+  - text: Para las plantas de exterior, es importante prestar atención a las condiciones climáticas y al tipo de suelo en el que están plantadas. Generalmente, las plantas de exterior necesitan menos riego que las de interior, ya que están expuestas a la lluvia y a la humedad del ambiente. Sin embargo, en épocas de calor intenso o sequía, es posible que necesiten un riego más frecuente. Te recomendaría verificar la humedad del suelo cada pocos días y ajustar la frecuencia de riego según sea necesario. ¡Espero que estas recomendaciones te ayuden a mantener tus plantas de exterior en óptimas condiciones! 💧🌿
+  utter_insectos_ayuda:
+  - text: Lo primero es mantener la calma. Si encuentras bichitos en tus plantas,  podría ser una plaga común como los áfidos. Puedes probar a limpiar las hojas con un paño húmedo o aplicar un insecticida suave. Recuerda revisar otras plantas cercanas por si acaso. ¡Juntos podemos hacer que tus plantas vuelvan a brillar! 🐞🌿
+  utter_solucion_manchas_marrones:
+  - text: Las manchas marrones en las hojas pueden ser signo de varias cosas, como enfermedades fúngicas o incluso exceso de sol. Es importante identificar la causa para encontrar la mejor solución. Puedes probar a cortar las hojas afectadas y mejorar la circulación de aire alrededor de tus plantas. Y si la situación empeora, no dudes en consultarme de nuevo. ¡Estoy aquí para ayudarte! 🍃🔍
+  utter_plantas_mascotas:
+  - text: Algunas plantas seguras para mascotas incluyen la palmera de bambú, la violeta africana, la planta araña y la hierba gatera. Sin embargo, es importante investigar cada planta específica, ya que algunas pueden ser tóxicas para ciertas mascotas. Siempre es mejor prevenir y mantener las plantas fuera del alcance de las mascotas curiosas.
+  - text: ¡Entiendo tu preocupación! Para garantizar la seguridad de tus mascotas, es importante elegir plantas no tóxicas. Algunas opciones seguras para perros y gatos son la suculenta de jade, la hierba gatera, el helecho de Boston y la hierbabuena. Recuerda investigar cada planta específica para asegurarte de que sea segura para tus mascotas..
+  utter_plantas_florecer:
+  - text: Para fomentar una floración abundante, asegúrate de que tus plantas reciban suficiente luz solar, proporciona un buen drenaje para evitar el encharcamiento del suelo y fertiliza ocasionalmente con un fertilizante equilibrado durante la temporada de crecimiento. También puedes probar a podar las flores marchitas para estimular la producción de nuevas flores. ¡Verás cómo tus plantas se llenan de color! 🌸🌻
+  - text: Para fomentar la floración de tus plantas, es importante brindarles las condiciones adecuadas. Asegúrate de proporcionar suficiente luz solar, agua y nutrientes. Además, puedes probar técnicas como la poda adecuada, el uso de fertilizantes específicos para flores y el control de plagas y enfermedades. Recuerda que cada planta es única, así que experimenta y encuentra lo que funciona mejor para tus plantas. ¡Espero que estos consejos te ayuden a tener hermosas flores en tu jardín! 🌸
+  utter_luz_interior:
+  - text: Tus plantas de interior necesitan luz brillante pero indirecta. Colócalas cerca de una ventana soleada, pero asegúrate de que no reciban luz directa durante demasiado tiempo. ¡Así lucirán felices y saludables! 🌞🌿
+  - text: La mayoría de las plantas de interior se desarrollan bien con luz indirecta. Te sugiero ubicarlas en lugares donde reciban una buena cantidad de luz natural, pero asegurándote de que no estén expuestas a la luz solar directa durante largos períodos. ¡Espero que estos consejos te ayuden a cuidar tus plantas en casa! 🌞
+  utter_macetas_interior:
+  - text: Las macetas vienen en muchos materiales diferentes, pero las de barro cocido o cerámica son excelentes opciones para plantas de interior, ya que permiten una buena circulación de aire y absorben el exceso de agua. Además, ¡pueden ser tan bonitas como tus plantas! 🌸🏺
+  - text: Las macetas de cerámica son excelentes para las plantas de interior, ya que permiten una buena circulación de aire y retienen la humedad de manera uniforme. Sin embargo, las macetas de plástico son más livianas y fáciles de limpiar. ¡Puedes elegir la que mejor se adapte a tus necesidades y preferencias!
+  utter_perdida_de_hojas:
+  - text: Es bastante normal que algunas plantas pierdan hojas en invierno debido a la disminución de la luz y la temperatura. Es una forma natural de conservar energía y adaptarse al entorno. No te preocupes demasiado, ¡las hojas volverán a crecer en primavera!
+  - text: ' La pérdida de hojas puede ser causada por diversos factores, como la falta de luz, un riego inadecuado o cambios repentinos de temperatura. Es importante identificar la causa subyacente. 🌿 Intenta ubicar tus plantas en un lugar con luz indirecta brillante y asegúrate de mantener un programa de riego regular. Además, evita cambios bruscos de temperatura y corrientes de aire. Observa cómo responden tus plantas y ajusta el cuidado en consecuencia.'
+  utter_recomendaciones:
+  - text: ¡Genial que estés pensando en tener una nueva planta!  Te entiendo,a veces es difícil elegir entre tantas opciones. Te recomendaría plantas como el Poto o la Suculenta. Son fáciles de cuidar y lucen geniales en cualquier espacio. ¿Te interesa saber más sobre alguna de ellas o prefieres explorar otras opciones? 🌿
+    buttons:
+    - title: Saber más del Poto
+      payload: /informacion_poto
+    - title: Saber más de la suculenta
+      payload: /informacion_suculenta
+    - title: No me interesan
+      payload: /no_convencido
+  - text: ¡Qué emocionante pensar en agregar una nueva planta a tu hogar! Entiendo que la elección puede ser abrumadora, pero no te preocupes, estoy aquí para ayudarte. Algunas opciones excelentes para comenzar podrían ser el Poto o la Suculenta. Son plantas resistentes y versátiles que se adaptan fácilmente a diferentes condiciones. ¿Te gustaría más detalles sobre alguna de estas opciones o prefieres explorar otras alternativas? 🌱
+    buttons:
+    - title: Saber más del Poto
+      payload: /informacion_poto
+    - title: Saber más de la suculenta
+      payload: /informacion_suculenta
+    - title: No me interesan
+      payload: /no_convencido
+  utter_info_poto:
+  - text: El poto, también conocido como Epipremnum aureum, es una planta de interior popular debido a su fácil cuidado y su capacidad para prosperar en condiciones de luz variable. Sus hojas variegadas en tonos de verde y amarillo la convierten en una opción llamativa para cualquier hogar u oficina. Prefiere la luz indirecta y solo necesita riego ocasional. ¡Es una excelente opción para principiantes en jardinería!
+  utter_info_suculenta:
+  - text: ¡Claro! La suculenta es una planta de interior muy popular gracias a su belleza y facilidad de cuidado. Conocida por su capacidad para almacenar agua en sus hojas carnosas, la suculenta es perfecta para aquellos que buscan una planta resistente y de bajo mantenimiento. Viene en una variedad de formas y colores, desde tonos verdes hasta púrpuras y rosados vibrantes. La suculenta prospera en condiciones de luz brillante a plena luz solar y requiere un riego mínimo, permitiendo que el suelo se seque completamente entre riegos. ¡Es una excelente opción para agregar un toque de naturaleza a cualquier espacio! 🌵
+  utter_saber_mas:
+  - text: ¿Hay algo más en lo que pueda ayudarte?
+  - text: ¿Tienes alguna otra pregunta?
+  utter_saber_mas_suculenta:
+  - text: ¿Te gustaría saber algo más de la suculenta? Puedo darte información sobre su riego, la luz que necesita y el tamaño que alcanza 🪴🌱
+  utter_saber_mas_poto:
+  - text: ¿Tienes alguna otra pregunta sobre el Poto? Puedo darte consejos sobre riego, tamaño o luz 🌞
+  utter_riego_suculenta:
+  - text: ¡Las suculentas son plantas que disfrutan de la sequedad y no les va bien con el exceso de agua! Te recomendaría regar tu suculenta aproximadamente cada 2-3 semanas durante los meses más cálidos y reducir el riego durante el invierno. Pero recuerda, siempre es mejor verificar la humedad del suelo antes de regar. Deja que la tierra se seque por completo entre riegos para evitar el riesgo de pudrición de las raíces. ¡Espero que estos consejos te ayuden a mantener tu suculenta feliz y saludable! 🌵💧
+  utter_riego_poto:
+  - text: Para regar el poto simplemente asegúrate de que el suelo esté ligeramente húmedo pero no empapado. Permite que la capa superior del suelo se seque entre riegos y evita el exceso de agua estancada en la maceta, ya que puede causar problemas de pudrición de raíces.
+  utter_tamaño_poto:
+  - text: La Pothos es conocida por su rápido crecimiento y puede alcanzar longitudes impresionantes de hasta 20 metros en condiciones ideales. Sin embargo, es fácil de controlar su tamaño mediante la poda regular.
+  utter_tamaño_suculenta:
+  - text: Por lo general, las suculentas tienden a ser de tamaño pequeño a mediano, con algunas especies que pueden crecer más grandes. Las suculentas más comunes que se encuentran en interiores suelen tener un tamaño compacto, lo que las hace perfectas para espacios reducidos. Sin embargo, hay variedades más grandes que pueden alcanzar varios pies de altura en condiciones óptimas de crecimiento.🌵📏
+  utter_luz_poto:
+  - text: El poto puede tolerar condiciones de poca luz, pero prefiere la luz brillante e indirecta para mantener su mejor color y crecimiento. Si planeas colocarla en un área con poca luz, asegúrate de que reciba algo de luz natural indirecta durante el día para mantenerla feliz y saludable.
+  utter_luz_suculenta:
+  - text: Las suculentas suelen prosperar en entornos con mucha luz solar, preferiblemente luz brillante pero indirecta. Algunas variedades pueden tolerar algo de luz solar directa, pero es importante evitar exponerlas a largas horas de sol intenso, especialmente en climas calurosos. Siempre es mejor observar la reacción de tu suculenta y ajustar su ubicación según sea necesario para evitar quemaduras solares. 🌞🌵
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+actions:
+- utter_tamaño_suculenta
+- utter_greet
+- utter_saber_mas
+- utter_luz_suculenta
+- utter_riego_suculenta
+- utter_info_poto
+- utter_riego_poto
+- utter_info_suculenta
+- utter_saber_mas_poto
+- utter_saber_mas_suculenta
+- utter_tamaño_poto

@@ -1,0 +1,33 @@
+version: "3.1"
+
+rules:
+
+- rule:  Devolver saludo
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Decir "de nada" cada vez que el usuario de las gracias
+  steps:
+  - intent: dar_gracias
+  - action: utter_denada
+
+- rule: Disculparse si la respuesta no le ha sido útil al usuario
+  steps:
+  - intent: deny
+  - action: utter_perdon
+
+- rule: estar contento si la respuesta  le ha sido útil al usuario
+  steps:
+  - intent: affirm
+  - action: utter_happy

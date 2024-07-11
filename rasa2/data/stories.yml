@@ -1,0 +1,397 @@
+version: "3.1"
+
+stories:
+
+- story: Riego de plantas - Interior especificado
+  steps:
+  - intent: regar_plantas_interior
+  - action: utter_riego_interior
+  - action: utter_did_that_help
+
+- story: Riego de plantas - Exterior especificado
+  steps:
+  - intent: regar_plantas_exterior
+  - action: utter_riego_exterior
+  - action: utter_did_that_help
+
+- story: Riego de plantas - No especificado
+  steps:
+  - intent: regar_plantas
+  - action: utter_riego
+
+- story: plaga insectos
+  steps:
+  - intent: insectos
+  - action: utter_insectos_ayuda
+  - action: utter_did_that_help
+
+- story: manchas marrones
+  steps:
+  - intent: manchas_marrones
+  - action: utter_solucion_manchas_marrones
+  - action: utter_did_that_help
+
+- story: plantas mascotas
+  steps:
+  - intent: mascotas
+  - action: utter_plantas_mascotas
+  - action: utter_did_that_help
+
+- story: floracion
+  steps:
+  - intent: florecer
+  - action: utter_plantas_florecer
+  - action: utter_did_that_help
+
+- story: luz interior
+  steps:
+  - intent: luz_interior
+    entities:
+    - tipo_de_planta: interior
+  - action: utter_luz_interior
+  - action: utter_did_that_help
+
+- story: macetas
+  steps:
+  - intent: macetas
+  - action: utter_macetas_interior
+  - action: utter_did_that_help
+
+- story: perdida de hojas
+  steps:
+  - intent: perdida_hojas
+  - action: utter_perdida_de_hojas
+  - action: utter_did_that_help
+
+- story: sugerencia_poto
+  steps:
+  - intent: sugerencia
+  - action: utter_recomendaciones
+  - intent: informacion_poto
+  - action: utter_info_poto
+  - slot_was_set:
+    - plantas: poto
+  - action: utter_saber_mas_poto
+
+- story: sugerencia_suculenta
+  steps:
+  - intent: sugerencia
+  - action: utter_recomendaciones
+  - intent: informacion_suculenta
+  - action: utter_info_suculenta
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_saber_mas_suculenta
+
+- story: sugerencia_fallida
+  steps:
+  - intent: sugerencia
+  - action: utter_recomendaciones
+  - intent: no_convencido
+  - action: utter_saber_mas
+
+- story: información_suculenta
+  steps:
+  - intent: informacion_suculenta
+    entities:
+    - tipo_de_planta: suculenta
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_info_suculenta
+  - action: utter_saber_mas_suculenta
+
+
+- story: información_poto
+  steps:
+  - intent: informacion_poto
+    entities:
+    - tipo_de_planta: poto
+  - slot_was_set:
+    - plantas: poto
+  - action: utter_info_poto
+  - action: utter_saber_mas_poto
+
+
+- story: informacion_suculenta_riego
+  steps: 
+  - intent: informacion_suculenta
+  - action: utter_info_suculenta
+  - action: utter_saber_mas_suculenta
+  - intent: riego
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_riego_suculenta
+  - action: utter_saber_mas_suculenta
+
+- story: informacion_poto_riego
+  steps: 
+  - intent: informacion_poto
+  - action: utter_info_poto
+  - action: utter_saber_mas_poto
+  - intent: riego
+  - slot_was_set:
+    - plantas: poto
+  - action: utter_riego_poto
+  - action: utter_saber_mas_poto
+
+- story: informacion_suculenta_tamaño
+  steps: 
+  - intent: informacion_suculenta
+  - action: utter_info_suculenta
+  - action: utter_saber_mas_suculenta
+  - intent: tamaño
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_tamaño_suculenta
+  - action: utter_saber_mas_suculenta
+
+- story: informacion_poto_tamaño
+  steps: 
+  - intent: informacion_poto
+  - action: utter_info_poto
+  - action: utter_saber_mas_poto
+  - intent: tamaño
+  - slot_was_set:
+    - plantas: poto
+  - action: utter_tamaño_poto
+  - action: utter_saber_mas_poto
+
+- story: informacion_poto_luz
+  steps: 
+  - intent: informacion_poto
+  - action: utter_info_poto
+  - action: utter_saber_mas_poto
+  - intent: luz
+  - slot_was_set:
+    - plantas: poto
+  - action: utter_luz_poto
+  - action: utter_saber_mas_poto
+
+- story: informacion_suculenta_luz
+  steps: 
+  - intent: informacion_suculenta
+  - action: utter_info_suculenta
+  - action: utter_saber_mas_suculenta
+  - intent: luz
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_luz_suculenta
+  - action: utter_saber_mas_suculenta
+
+- story: Luz para suculentas
+  steps:
+  - intent: luz
+    entities:
+    - tipo_de_planta: suculenta
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_luz_suculenta
+  - action: utter_saber_mas_suculenta
+
+
+- story: Riego para suculentas
+  steps:
+  - intent: riego
+    entities:
+    - tipo_de_planta: suculenta
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_riego_suculenta
+  - action: utter_saber_mas_suculenta
+
+
+- story: Tamaño de suculentas
+  steps:
+  - intent: tamaño
+    entities:
+    - tipo_de_planta: suculenta
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_tamaño_suculenta
+  - action: utter_saber_mas_suculenta
+
+
+- story: Luz para potos
+  steps:
+  - intent: luz
+    entities:
+      - tipo_de_planta: poto
+  - slot_was_set:
+      - plantas: poto
+  - action: utter_luz_poto
+  - action: utter_saber_mas_poto
+
+- story: Riego para potos
+  steps:
+  - intent: riego
+    entities:
+      - tipo_de_planta: poto
+  - slot_was_set:
+      - plantas: poto
+  - action: utter_riego_poto
+  - action: utter_saber_mas_poto
+
+- story: Tamaño de potos
+  steps:
+  - intent: tamaño
+    entities:
+      - tipo_de_planta: poto
+  - slot_was_set:
+      - plantas: poto
+  - action: utter_tamaño_poto
+  - action: utter_saber_mas_poto
+
+
+- story: interactive_story_1
+  steps:
+  - intent: informacion_suculenta
+    entities:
+    - tipo_de_planta: suculenta
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_info_suculenta
+  - action: utter_saber_mas_suculenta
+  - intent: tamaño
+    entities:
+    - tipo_de_planta: suculenta
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_tamaño_suculenta
+  - action: utter_saber_mas
+  - intent: riego
+    entities:
+    - tipo_de_planta: suculenta
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_riego_suculenta
+  - action: utter_saber_mas
+  - intent: luz
+    entities:
+    - tipo_de_planta: suculenta
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_luz_suculenta
+  - action: utter_saber_mas
+  - intent: tamaño
+    entities:
+    - tipo_de_planta: suculenta
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_tamaño_suculenta
+  - action: utter_saber_mas
+
+- story: interactive_story_1
+  steps:
+  - intent: tamaño
+    entities:
+    - tipo_de_planta: poto
+  - slot_was_set:
+    - plantas: poto
+  - action: utter_tamaño_poto
+  - action: utter_saber_mas
+
+- story: interactive_story_1
+  steps:
+  - intent: tamaño
+    entities:
+    - tipo_de_planta: poto
+  - slot_was_set:
+    - plantas: poto
+  - action: utter_tamaño_poto
+  - action: utter_saber_mas
+  - intent: riego
+    entities:
+    - tipo_de_planta: poto
+  - slot_was_set:
+    - plantas: poto
+  - action: utter_riego_poto
+  - action: utter_saber_mas
+  - intent: luz
+    entities:
+    - tipo_de_planta: suculenta
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_luz_suculenta
+  - action: utter_saber_mas
+
+- story: interactive_story_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: informacion_suculenta
+    entities:
+    - tipo_de_planta: suculenta
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_info_suculenta
+  - action: utter_saber_mas_suculenta
+  - intent: luz
+    entities:
+    - tipo_de_planta: suculenta
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_luz_suculenta
+  - action: utter_saber_mas
+  - intent: riego
+    entities:
+    - tipo_de_planta: suculenta
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_riego_suculenta
+  - action: utter_saber_mas
+  - intent: tamaño
+    entities:
+    - tipo_de_planta: suculenta
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_tamaño_suculenta
+  - action: utter_saber_mas
+  - intent: informacion_poto
+    entities:
+    - tipo_de_planta: poto
+  - slot_was_set:
+    - plantas: poto
+  - action: utter_info_poto
+  - action: utter_saber_mas_poto
+  - intent: tamaño
+    entities:
+    - tipo_de_planta: poto
+  - slot_was_set:
+    - plantas: poto
+  - action: utter_tamaño_poto
+  - action: utter_saber_mas
+  - intent: riego
+    entities:
+    - tipo_de_planta: poto
+  - slot_was_set:
+    - plantas: poto
+  - action: utter_riego_poto
+  - action: utter_saber_mas
+  - intent: tamaño
+    entities:
+    - tipo_de_planta: poto
+  - slot_was_set:
+    - plantas: poto
+  - action: utter_tamaño_poto
+  - action: utter_saber_mas
+  - intent: tamaño
+    entities:
+    - tipo_de_planta: suculentas
+  - slot_was_set:
+    - plantas: suculentas
+  - action: utter_tamaño_suculenta
+  - action: utter_saber_mas
+  - intent: riego
+    entities:
+    - tipo_de_planta: suculenta
+  - slot_was_set:
+    - plantas: suculenta
+  - action: utter_riego_suculenta
+  - action: utter_saber_mas
+  - intent: luz
+    entities:
+    - tipo_de_planta: suculentas
+  - slot_was_set:
+    - plantas: suculentas
+  - action: utter_luz_suculenta
+  - action: utter_saber_mas
