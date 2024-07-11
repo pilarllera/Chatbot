@@ -1,0 +1,1 @@
+I had to design and develop a chatbot for my projects' subject. For that reason, I created "Plant.ia" a friendly chatbot that helps you take care of your beloved plants! The json can be uploaded to IBM Watson.
